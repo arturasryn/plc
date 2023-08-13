@@ -9,7 +9,7 @@
 - Create .env file for laravel environment from .env.example on src folder
 - Run command ```docker-compose build``` on your terminal
 - Run command ```docker-compose up -d``` on your terminal
-- Run command ```docker exec php /bin/sh -c "composer install && chmod -R 777 storage && npm install && npm run build && php artisan key:generate && php artisan migrate:fresh --seed"`` on your terminal after went into php container on docker
+- Run command ```docker exec php /bin/sh -c "composer install && chmod -R 777 storage && npm install && npm run build && php artisan key:generate && php artisan migrate:fresh --seed"``` on your terminal after went into php container on docker
 - Go to http://localhost:8001
 
 
@@ -31,10 +31,10 @@
 
 ## Preview
 
-[screenshot-1]: images/1.png
-[screenshot-2]: images/2.png
-[screenshot-3]: images/3.png
-[screenshot-4]: images/4.png
+![screenshot-1](/images/1.png)
+![screenshot-2](/images/2.png)
+![screenshot-3](/images/3.png)
+![screenshot-4](/images/4.png)
 
 
 ## ТЗ Backend
