@@ -31,10 +31,10 @@
 
 ## Preview
 
-[screenshot-1]: images/1.png
-[screenshot-2]: images/2.png
-[screenshot-3]: images/3.png
-[screenshot-4]: images/4.png
+![screenshot-1](/images/1.png)
+![screenshot-2](/images/2.png)
+![screenshot-3](/images/3.png)
+![screenshot-4](/images/4.png)
 
 
 ## ТЗ Backend
