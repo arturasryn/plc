@@ -7,7 +7,9 @@ RUN apk update && apk add \
     libpng-dev \
     libxml2-dev \
     zip \
-    unzip
+    unzip 
+
+RUN docker-php-ext-install opcache
 
 RUN docker-php-ext-install pdo pdo_mysql \
     && apk --no-cache add nodejs npm
